@@ -1,3 +1,10 @@
+# KeyboardAvoidingView SDK 35 issue
+
+Project showing the issue describe at https://github.com/facebook/react-native/issues/49759 where the KeyboardAvoidingView hide an input since Android 15 SDK 35.
+Since RN 81, we need to run `nvm alias default 20` to bypass a `error (0 , _util.styleText) is not a function.` issue when running `npm run android`
+
+# Former readme
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
